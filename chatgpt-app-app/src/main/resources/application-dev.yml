@@ -1,0 +1,18 @@
+server:
+  port: 8091
+
+# 应用配置
+app:
+  config:
+    # 版本，方便通过接口版本升级
+    api-version: v1
+    # 跨域，开发阶段可以设置为 * 不限制
+    cross-origin: '*'
+
+# ChatGPT SDK Config
+chatgpt:
+  sdk:
+    config:
+      enabled: true
+      api-host: https://api.kksj.org/
+      api-key: sk-EB9pXGxAQsIgmCJt8f58C9457822410bAd0700967e39F740
